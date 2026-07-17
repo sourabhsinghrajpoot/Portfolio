@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { lazy, Suspense, useRef } from "react";
 import {
-  Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Download,
+  Github, Linkedin, Mail, Phone, MapPin, ExternalLink,
   Code2, Brain, Sparkles, ArrowUpRight, Award, Briefcase, GraduationCap,
 } from "lucide-react";
 import sourabhAsset from "@/assets/sourabh.png.asset.json";
