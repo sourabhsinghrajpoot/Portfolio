@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { lazy, Suspense, useRef } from "react";
 import {
   Github, Linkedin, Mail, Phone, MapPin, ExternalLink,
-  Code2, Brain, Sparkles, ArrowUpRight, Award, Briefcase, GraduationCap,
+  Code2, Sparkles, ArrowUpRight, Award, Briefcase, GraduationCap,
 } from "lucide-react";
 import sourabhAsset from "@/assets/sourabh.png.asset.json";
 
@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Sourabh Singh — SDE / AI-ML Engineer Portfolio" },
-      { name: "description", content: "B.Tech CSE (AKGEC 2026). Built a 121K pps DPI engine in C++, StockAlphas AI trading platform, Orynta AI e-commerce, and Career-Connect. Prodigy InfoTech + Zidio intern." },
+      { name: "description", content: "B.Tech CSE (AKGEC 2026). Built a 121K pps DPI engine in C++, StockAlphas AI trading platform, Orynta AI e-commerce, and Career-Connect. Motion Cut + Zidio intern." },
       { property: "og:title", content: "Sourabh Singh — SDE / AI-ML Engineer" },
       { property: "og:description", content: "Full-stack + AI/ML engineer building high-performance systems." },
       { property: "og:type", content: "website" },
@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
 const EMAIL = "sourabhsingh2003ltp@gmail.com";
 const PHONE = "+91-9695098754";
 const GITHUB = "https://github.com/sourabhsinghrajpoot";
-const LINKEDIN = "https://linkedin.com/in/sourabhsingh2003";
+const LINKEDIN = "https://www.linkedin.com/in/sourabh-singh-3baa46262/";
 
 const projects = [
   {
@@ -78,15 +78,15 @@ const projects = [
 
 const experiences = [
   {
-    role: "AI/ML Intern",
-    company: "Prodigy InfoTech",
-    period: "Dec 2025 – May 2026",
+    role: "Web Development Intern",
+    company: "Motion Cut",
+    period: "2025",
     points: [
-      "Built and evaluated predictive models with Python, Pandas, NumPy, Scikit-learn.",
-      "Data preprocessing, feature engineering, EDA; visualized insights with Matplotlib & Seaborn.",
-      "Contributed to real-world AI/ML use cases, documentation, and technical presentations.",
+      "Built responsive, performant web interfaces using React.js and modern JavaScript/TypeScript.",
+      "Collaborated with product and design to translate Figma wireframes into production-ready UI.",
+      "Optimized component structure and state management to improve page load and UX consistency.",
     ],
-    icon: Brain,
+    icon: Code2,
   },
   {
     role: "Frontend Developer Intern",
@@ -181,7 +181,7 @@ function Portfolio() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8"
             >
-              I engineer <span className="text-foreground font-medium">high-performance systems</span> and <span className="text-foreground font-medium">AI-driven products</span>. B.Tech CSE from AKGEC · Ex-Prodigy InfoTech · Ex-Zidio.
+              I engineer <span className="text-foreground font-medium">high-performance systems</span> and <span className="text-foreground font-medium">AI-driven products</span>. B.Tech CSE from AKGEC · Ex-Motion Cut · Ex-Zidio.
             </motion.p>
 
             <motion.div
@@ -232,7 +232,7 @@ function Portfolio() {
               </div>
               <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 rotate-[-6deg]">
                 <div className="text-xs text-muted-foreground">Currently</div>
-                <div className="font-mono text-sm">AI/ML @ Prodigy</div>
+                <div className="font-mono text-sm">Web Dev @ Motion Cut</div>
               </div>
               <div className="absolute -top-4 -right-4 glass rounded-2xl px-4 py-3 rotate-6">
                 <div className="text-xs text-muted-foreground">Grad</div>
