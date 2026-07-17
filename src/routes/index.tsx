@@ -192,7 +192,7 @@ function Portfolio() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8"
             >
-              I engineer <span className="text-foreground font-medium">high-performance systems</span> and <span className="text-foreground font-medium">AI-driven products</span>. B.Tech CSE from AKGEC · 4 internships · open to work.
+              Engineering modern frontend experiences with performance, scalability, and clean design in mind. B.Tech CSE @ AKGEC · 4 Internships · Open to Work
             </motion.p>
 
             <motion.div
