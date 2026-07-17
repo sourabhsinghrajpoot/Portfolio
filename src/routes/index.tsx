@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Sourabh Singh — SDE / AI-ML Engineer Portfolio" },
-      { name: "description", content: "B.Tech CSE (AKGEC 2026). Built a 121K pps DPI engine in C++, StockAlphas AI trading platform, Orynta AI e-commerce, and Career-Connect. Motion Cut + Zidio intern." },
+      { name: "description", content: "B.Tech CSE (AKGEC 2026). Built a 121K pps DPI engine in C++, StockAlphas AI trading platform, Orynta AI e-commerce, and Career-Connect. Internships at Motion Cut, Zidio Development, Prodigy InfoTech, and Accenture UK." },
       { property: "og:title", content: "Sourabh Singh — SDE / AI-ML Engineer" },
       { property: "og:description", content: "Full-stack + AI/ML engineer building high-performance systems." },
       { property: "og:type", content: "website" },
@@ -100,6 +100,17 @@ const experiences = [
     icon: Code2,
   },
   {
+    role: "AI/ML Intern",
+    company: "Prodigy InfoTech",
+    period: "2025",
+    points: [
+      "Developed machine learning models and data-driven solutions for real-world business problems.",
+      "Worked with Python, Pandas, NumPy, and Scikit-learn for data preprocessing and model training.",
+      "Delivered end-to-end project tasks and documented results with clear visualizations.",
+    ],
+    icon: Sparkles,
+  },
+  {
     role: "Technology Apprentice",
     company: "Accenture UK — Virtual Experience",
     period: "2025",
@@ -181,7 +192,7 @@ function Portfolio() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8"
             >
-              I engineer <span className="text-foreground font-medium">high-performance systems</span> and <span className="text-foreground font-medium">AI-driven products</span>. B.Tech CSE from AKGEC · Ex-Motion Cut · Ex-Zidio.
+              I engineer <span className="text-foreground font-medium">high-performance systems</span> and <span className="text-foreground font-medium">AI-driven products</span>. B.Tech CSE from AKGEC · 4 internships · open to work.
             </motion.p>
 
             <motion.div
@@ -208,7 +219,7 @@ function Portfolio() {
             >
               {[
                 { k: "121K+", v: "packets/sec" },
-                { k: "3", v: "internships" },
+                { k: "4", v: "internships" },
                 { k: "4+", v: "shipped projects" },
               ].map((s) => (
                 <div key={s.v}>
@@ -232,7 +243,7 @@ function Portfolio() {
               </div>
               <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 rotate-[-6deg]">
                 <div className="text-xs text-muted-foreground">Currently</div>
-                <div className="font-mono text-sm">Web Dev @ Motion Cut</div>
+                <div className="font-mono text-sm">Open to work</div>
               </div>
               <div className="absolute -top-4 -right-4 glass rounded-2xl px-4 py-3 rotate-6">
                 <div className="text-xs text-muted-foreground">Grad</div>
