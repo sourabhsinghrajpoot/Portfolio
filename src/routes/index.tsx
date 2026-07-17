@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
 const EMAIL = "sourabhsingh2003ltp@gmail.com";
 const PHONE = "+91-9695098754";
 const GITHUB = "https://github.com/sourabhsinghrajpoot";
-const LINKEDIN = "https://linkedin.com/in/sourabhsingh2003";
+const LINKEDIN = "https://www.linkedin.com/in/sourabh-singh-3baa46262/";
 
 const projects = [
   {
@@ -78,15 +78,15 @@ const projects = [
 
 const experiences = [
   {
-    role: "AI/ML Intern",
-    company: "Prodigy InfoTech",
-    period: "Dec 2025 – May 2026",
+    role: "Web Development Intern",
+    company: "Motion Cut",
+    period: "2025",
     points: [
-      "Built and evaluated predictive models with Python, Pandas, NumPy, Scikit-learn.",
-      "Data preprocessing, feature engineering, EDA; visualized insights with Matplotlib & Seaborn.",
-      "Contributed to real-world AI/ML use cases, documentation, and technical presentations.",
+      "Built responsive, performant web interfaces using React.js and modern JavaScript/TypeScript.",
+      "Collaborated with product and design to translate Figma wireframes into production-ready UI.",
+      "Optimized component structure and state management to improve page load and UX consistency.",
     ],
-    icon: Brain,
+    icon: Code2,
   },
   {
     role: "Frontend Developer Intern",
